@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
     <div class="header">
-        <div>Header Logo</div>
+        <div class="logo">Header Logo</div>
         <div>
-            <ul>
+            <ul class="links secondary">
                 <li>header-link one</li>
                 <li>header-link two</li>
                 <li>header-link three</li>
@@ -17,50 +18,56 @@
         </div>
 
     </div>
-    <div>
+    <div class="mains">
         <div>
             <p class="hero-text">This Website is Awesome</p>
-            <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast </p>
-            <p>Also check out the cool image on the right</p>
-            <button>Sign Up</button>
+            <p class="secondary">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast </p>
+            <p class="secondary">Also check out the cool image on the right</p>
+            <button class="buttonmains">Sign Up</button>
         </div>
-        <img src="../flex-box-landing-page/images/pexels-image.jpg" alt="Image saying hello, it's a cool image">
-    </div> 
+        <img class="hello" src="../flex-box-landing-page/images/pexels-image.jpg" alt="Image saying hello, it's a cool image">
+    </div>
 
-    <div>
-        <p>Some random information</p>
-        <div>
-            <img src="../flex-box-landing-page/images/PS.jpg" alt="Image of a Playstation controller">
-            <div>This is some subtext under an image of a controller</div>
-        </div>
-        <div>
-            <img src="../flex-box-landing-page/images/switch.jpg" alt="Image of a Nintendo Switch controller">
-            <div>I love videogames and I thought these images look cool</div>
-        </div>
-        <div>
-            <img src="../flex-box-landing-page/images/xbox.jpg" alt="Image of an Xbox controller">
-            <div>I'm running out of things to say about these images</div>
-        </div>
-        <div>
-            <img src="../flex-box-landing-page/images/stadia.jpg" alt="Image of a Google Stadia controller">
-            <div>Thank you for reading this far, please go through the remaining sections as well</div>
+    <div class="infographic">
+        <div class="random">Some random information</div>
+        <div class="container">
+            <div class="info">
+                <img src="../flex-box-landing-page/images/PS.jpg" alt="Image of a Playstation controller">
+                <div class="text">This is some subtext under an image of a controller</div>
+            </div>
+            <div class="info">
+                <img src="../flex-box-landing-page/images/switch.jpg" alt="Image of a Nintendo Switch controller">
+                <div class="text">I love videogames and I thought these images look cool</div>
+            </div>
+            <div class="info">
+                <img src="../flex-box-landing-page/images/xbox.jpg" alt="Image of an Xbox controller">
+                <div class="text">I'm running out of things to say about these images</div>
+            </div>
+            <div class="info">
+                <img src="../flex-box-landing-page/images/stadia.jpg" alt="Image of a Google Stadia controller">
+                <div class="text">Thank you for reading this far, please go through the remaining sections as well</div>
+            </div>
         </div>
     </div>
-    <div>
-        <p>The story so far:</p>
-        <p> In the beginning the Universe was created.
+    <div class="quote">
+        <p class="full-quote">The story so far:</p>
+        <p class="full-quote"> In the beginning the Universe was created.
             This has made a lot of people very angry and been widely regarded as a bad move.
         </p>
 
-        <p>-Douglas Adams, The Restaurant at the End of the Universe</p>
+        <p class="author full-quote">-Douglas Adams, The Restaurant at the End of the Universe</p>
     </div>
-    <div>
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking the button over there!</p>
-        <button>Sign Up!</button>
+    <div class="call-to-act">
+        <div class="call">
+            <div class="cta">
+                <p>Call to action! It's time!</p>
+                <p>Sign up for our product by clicking the button over there!</p>
+            </div>
+            <button>Sign Up!</button>
+        </div>
     </div>
-    <div class="footer">
-        <p>Copyright C The Odin Project</p>
+    <div class="footer secondary">
+        <p>Copyright &copy; The Odin Project</p>
     </div>
 
 </body>
